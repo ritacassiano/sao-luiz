@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+</head>
+<body>
+    <h1>LINKS E HYPERLINKS</h1>
+    <h1>Usando links externos</h1>
+    <!--usando desta forma, quando você clica no link, ele vai te direcionar para outra página, substituindo a página anterior -->
+    <!--a tag <a> é usada para colocar a URL do site que deseja acessar. O parâmetro "href" significa "referência a hyperlink"-->
+    <p>Você pode acessar a <a href="https://pt.wikipedia.org">Wikipédia</a> para conhecer diversos conteúdos gratuitos.</p>
+    
+
+    <!--usando desta outra forma, a página será aberta em outra aba, sem substituir a página original.-->
+    <!--esta outra forma usa o parâmetro "target"-->
+    <p>Você também pode acessar a <a href="https://pt.wikipedia.org" target="_blank">Wikipédia</a> para conhecer diversos conteúdosgratuitos.</p>
+
+    <!--SEM TARGET-->
+    <p>Você também pode acessar a página da <a href="https://brasilescola.uol.com.br/">Brasil escola</a> para acessar conteúdos sensacionais.</p>
+
+    <!--COM TARGET-->
+    <p>Você também pode acessar a página da <a href="https://brasilescola.uol.com.br/" target="_blank" rel="external">Brasil escola</a> para acessar conteúdos sensacionais.</p>
+
+    <!--USANDO LINKS INTERNOS-->
+
+    <!--primeiro temos que criar a pag02-->
+    <h1>Usando links internos</h1>
+    <p>Esta é a primeira página do site, se você quiser pode acessar também a minha <a href="pag02.html">segunda página.</a></p>
+
+    <!--desta forma irá gerar um erro de "página não encontrada", pois a página "pag03.html", está em outra pasta, ou seja, na pasta notícias-->
+    <p>Você também pode acessar nossa <a href="pag03.html">página de notícias.</a></p>
+
+    <!--para resolver o problema faça da seguinte forma:-->
+    <p>Você também pode acessar nossa <a href="noticias/pag03.html">página de notícias.</a></p>
+    
+</body>
+</html>

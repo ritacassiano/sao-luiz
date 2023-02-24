@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags agrupadas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: bisque;
+            margin: 0px;
+        }
+
+        h1{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 60px;
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav{
+            background-color: lightgrey;
+            padding: 3px;
+            box-shadow: 2px 2px 2px black;
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: rgb(228, 17, 17);
+            padding: 3px;
+            margin-right: 30px;
+            font-weight: bold;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        article{
+            background-color: lightgray;
+        }
+
+        article > aside{
+            background-color: aquamarine;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+
+        section#assuntos{
+            color: brown;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <!--TAGS DE AGRUPAMENTO
+    <div> caixa do tipo box-level
+    <span> caixa do tipo inline level
+    -->
+
+    <header> <!--cabeçalho-->
+        <h1>Notícias Diárias</h1>
+        <nav>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <p>ESPORTE | POLÍTICA | TECNOLOGIA</p>
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre Jair Bolsonaro, o melhor presidente do Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate delectus eos laudantium nihil dolore quaerat sequi! Nobis incidunt fugiat recusandae ipsum, non saepe facere mollitia ab pariatur. Praesentium, labore asperiores.</p>
+                <aside>
+                    <p>Artigo escrito por Rita Cassiano</p>
+                </aside>
+
+            </article>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Rita Cassiano</p>
+
+    </footer>
+    
+</body>
+</html>
